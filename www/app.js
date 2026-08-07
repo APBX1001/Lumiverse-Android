@@ -1,8 +1,8 @@
-const STORAGE_KEY = 'sillytavern_url';
-const AUTH_ENABLED_KEY = 'sillytavern_auth_enabled';
-const AUTH_USER_KEY = 'sillytavern_auth_user';
-const AUTH_PASS_KEY = 'sillytavern_auth_pass';
-const BG_MODE_KEY = 'sillytavern_bg_mode';
+const STORAGE_KEY = 'lumiverse_url';
+const AUTH_ENABLED_KEY = 'lumiverse_auth_enabled';
+const AUTH_USER_KEY = 'lumiverse_auth_user';
+const AUTH_PASS_KEY = 'lumiverse_auth_pass';
+const BG_MODE_KEY = 'lumiverse_bg_mode';
 
 // Elements
 const mainScreen = document.getElementById('main-screen');
@@ -31,7 +31,7 @@ function init() {
 
     if (!storedUrl) {
         // First time open - set default and show settings
-        const defaultUrl = 'http://127.0.0.1:8000';
+        const defaultUrl = 'http://127.0.0.1:7860';
         localStorage.setItem(STORAGE_KEY, defaultUrl);
         updateDisplay(defaultUrl);
         showSettings();
