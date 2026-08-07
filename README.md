@@ -1,6 +1,6 @@
-# SillyTavern Android Launcher
+# Lumiverse Android Launcher
 
-A lightweight Android wrapper for [SillyTavern](https://github.com/SillyTavern/SillyTavern). This application provides a dedicated WebView environment to access your self-hosted SillyTavern instance with native-like features.
+A lightweight Android wrapper for [SillyTavern](https://github.com/prolix-oc/Lumiverse). This application provides a dedicated WebView environment to access your self-hosted SillyTavern instance with native-like features.
 
 ## ✨ Features
 
@@ -15,21 +15,21 @@ A lightweight Android wrapper for [SillyTavern](https://github.com/SillyTavern/S
 The easiest way to get started is to download the latest pre-built APK from the [Releases](../../releases) page.
 
 ### Installation
-1.  Download the `SillyTavern-vX.X.X.apk` file.
+1.  Download the `Lumiverse-vX.X.X.apk` file.
 2.  Open the file on your Android device.
 3.  If prompted, allow installation from unknown sources.
 4.  Follow the on-screen instructions to complete the installation.
 
 ## 🛠️ Setup & Usage
 
-1.  **Launch the App:** Open SillyTavern from your app drawer.
+1.  **Launch the App:** Open Lumiverse from your app drawer.
 2.  **Configure URL:**
     -   Tap the **Settings** button.
-    -   Enter the full URL of your SillyTavern instance (e.g., `http://192.168.1.5:8000` or your public tunnel URL).
+    -   Enter the full URL of your Lumiverse instance (e.g., `http://192.168.1.5:8000` or your public tunnel URL).
     -   *Note: Ensure your phone can reach the host (e.g., same Wi-Fi or public IP).*
 3.  **Save & Connect:**
     -   Tap **Save** to store the configuration.
-    -   Tap **Connect** to load your SillyTavern interface.
+    -   Tap **Connect** to load your Lumiverse interface.
 
 ## 🏗️ Building from Source
 
@@ -64,7 +64,7 @@ To create a distributable (signed) APK, you need a keystore.
 
 1.  **Generate a Keystore:**
     ```bash
-    keytool -genkey -v -keystore release-key.keystore -alias sillytavern -keyalg RSA -keysize 2048 -validity 10000
+    keytool -genkey -v -keystore release-key.keystore -alias lumiverse -keyalg RSA -keysize 2048 -validity 10000
     ```
 2.  **Configure Build Credentials:**
     The build script supports both environment variables and Gradle properties.
