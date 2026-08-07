@@ -1,4 +1,4 @@
-package com.sillytavern.android;
+package com.lumiverse.android;
 
 import android.content.Context;
 import android.content.Intent;
