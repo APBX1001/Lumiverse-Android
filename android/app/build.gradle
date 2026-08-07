@@ -11,10 +11,10 @@ def getPackageJson() {
 def packageJson = getPackageJson()
 
 android {
-    namespace = "com.sillytavern.android"
+    namespace = "com.lumiverse.android"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.sillytavern.android"
+        applicationId "com.lumiverse.android"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode System.getenv("GITHUB_RUN_NUMBER") ? System.getenv("GITHUB_RUN_NUMBER").toInteger() : 1
