@@ -1,7 +1,7 @@
 {
-  "name": "sillytavern-android",
+  "name": "lumiverse-android",
   "version": "1.0.0",
-  "description": "A lightweight Android launcher for SillyTavern, providing a full-screen WebView experience with native feature support.",
+  "description": "A lightweight Android launcher for Lumiverse, providing a full-screen WebView experience with native feature support.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
