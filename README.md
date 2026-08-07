@@ -1,6 +1,6 @@
 # Lumiverse Android Launcher
 
-A lightweight Android wrapper for [Lumiverse](https://github.com/prolix-oc/Lumiverse). This application provides a dedicated WebView environment to access your self-hosted SillyTavern instance with native-like features.
+A lightweight Android wrapper for [Lumiverse](https://github.com/prolix-oc/Lumiverse). This application provides a dedicated WebView environment to access your self-hosted Lumiverse instance with native-like features.
 
 ## ✨ Features
 
